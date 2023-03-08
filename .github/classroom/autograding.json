@@ -1,0 +1,58 @@
+{
+  "tests": [
+    {
+      "name": "Compile code",
+      "run": "mkdir build; cd build; cmake ..; make;",
+      "timeout": 5,
+      "points": 0
+    },
+    {
+      "name": "Test1.Employee_gettersAndSetters",
+      "run": "cd build; ./test/runTests --gtest_filter=Test1.Employee_gettersAndSetters",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test2.Programmer_gettersAndSetters",
+      "run": "cd build; ./test/runTests --gtest_filter=Test2.Programmer_gettersAndSetters",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test3.Lawyer_gettersAndSetters",
+      "run": "cd build; ./test/runTests --gtest_filter=Test3.Lawyer_gettersAndSetters",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test4.Accountant_gettersAndSetters",
+      "run": "cd build; ./test/runTests --gtest_filter=Test4.Accountant_gettersAndSetters",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test5.Employee_toString",
+      "run": "cd build; ./test/runTests --gtest_filter=Test5.Employee_toString",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test6.Programmer_toString",
+      "run": "cd build; ./test/runTests --gtest_filter=Test6.Programmer_toString",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test7.Lawyer_toString",
+      "run": "cd build; ./test/runTests --gtest_filter=Test7.Lawyer_toString",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Test8.Accountant_toString",
+      "run": "cd build; ./test/runTests --gtest_filter=Test8.Accountant_toString",
+      "timeout": 5,
+      "points": 1
+    }
+  ]
+}
