@@ -43,8 +43,8 @@ Interpretation:
 ## What to Modify and What not to Modify
 You may modify:
 * Main.cpp
-* PA#.cpp (do not change existing function headers)
-* PA#.h (do not change existing function prototyes)
+* .cpp files (do not change existing function headers)
+* .h files (do not change existing member functions and function prototyes)
 
 You may not modify:
 * CMakeLists.txt
